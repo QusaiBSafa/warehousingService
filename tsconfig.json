@@ -1,0 +1,41 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "es2017",
+      "esnext.asynciterable",
+      "DOM"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "pretty": true,
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "baseUrl": "src",
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.json",
+    "src/**/*.yaml",
+    ".env"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/tests"
+  ]
+}
